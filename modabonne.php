@@ -22,7 +22,7 @@ $tab = mysqli_fetch_assoc($res);
 <center>
         <h2>modifier les informations de votre livre</h2>
         <div class="main">
-        <form action="modabonne2.php" method="POST"  >
+        <!-- <form action="modabonne2.php" method="POST"  >
         <label for="">auteur :</label>
         <input type="text" value = "<?php echo $tab["prenom"] ?>" name="prenom"><br>
         
@@ -31,7 +31,7 @@ $tab = mysqli_fetch_assoc($res);
         <button type="submit" name="modifier" class="btn btn-primary">modifier</button>
         
 
-        </form>
+        </form> -->
     </div>
         </center>
         <style>
